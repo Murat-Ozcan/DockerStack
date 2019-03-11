@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+
+  elasticsearch:
+    image: muratozcan/aspnetcorerandom
+    ports:
+      - "8080:80"
+    deploy:
+      mode: replicated
+      replicas: 3
