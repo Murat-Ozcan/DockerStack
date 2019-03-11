@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
 
-  elasticsearch:
+  randomnumber:
     image: muratozcan/aspnetcorerandom
     ports:
       - "8080:80"
